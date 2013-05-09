@@ -4,15 +4,15 @@
 Plugin Name: WordPress Bitcoin Widget
 Description: Add the Bitcoin price and a donation address to your WordPress blog.
 Author: fanquake
-Version: 1.0
-Revision Date: January 13, 2013
+Version: 1.1
+Revision Date: May 09, 2013
 Requires at least: WP 3.2, PHP 5.3
-Tested up to: WP 3.5, PHP 5.4
+Tested up to: WP 3.5.1, PHP 5.4
 */
 
 function getBitcoinPrice() {
 			 // Fetch the current price from MtGox
-			$ch = curl_init('https://mtgox.com/api/0/data/ticker.php');
+			$ch = curl_init('https://data.mtgox.com/api/0/data/ticker.php');
 			curl_setopt($ch, CURLOPT_REFERER, 'Mozilla/5.0 (compatible; MtGox PHP client; '.php_uname('s').'; PHP/'.phpversion().')');
 			curl_setopt($ch, CURLOPT_USERAGENT, "CakeScript/0.1");
 			curl_setopt($ch, CURLOPT_HEADER, 0);

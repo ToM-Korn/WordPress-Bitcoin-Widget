@@ -1,17 +1,17 @@
 === WordPress Bitcoin Widget ===
 Contributors: fanquake
-Donate link: 19JwctrVD9ozPDfiC4SHUYvDD1UdGaczS4
+Donate link: 1KRCk7mcq3cQkoxNP3eJ3gW7NwDDx2w6yx
 Tags: Bitcoin
 Requires at least: 3.2
-Tested up to: 3.5
-Stable tag: 1.0
+Tested up to: 3.5.1
+Stable tag: 1.1
 
 == Description ==
 Add the Bitcoin price and a donation address to your WordPress blog.
 
 == Installation ==
 
-1. Upload `WordPress Bitcoin Widget` to the `/wp-content/plugins/` directory or use the automatic installation from the WP plugins panel.
+1. Upload `WordPress Bitcoin Widget` to the `/wp-content/plugins/` directory.
 2. Activate the widget through the widget menu in WordPress.
 
 == Screenshots ==
@@ -20,7 +20,11 @@ Add the Bitcoin price and a donation address to your WordPress blog.
 
 == Change-log ==
 
-* Initial Release
+* 1.1
+Update MtGox Api
+
+* 1.0
+Initial Release
 
 
-Updated 13 January 2013
+Updated 09 May 2013
